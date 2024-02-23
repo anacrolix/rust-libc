@@ -1,9 +1,6 @@
 name: full CI
 
-on:
-  merge_group:
-  pull_request:
-    types: [opened, synchronize, reopened]
+on: [push]
 
 jobs:
   docker_linux_tier1:
